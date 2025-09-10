@@ -1,0 +1,58 @@
+.favourite {
+    margin-bottom: 180px;
+}
+
+.favourite-title {
+    padding-bottom: 118px;
+}
+
+.favourite-title h1{
+    display: inline-block;
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 6px;
+}
+
+.favourite-title h1::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 20;
+    right: 0;
+    bottom: 0;
+    width: 190px;
+    height: 32px;
+
+    background-image: url('./../../img/icons/yellow-fig.svg');
+}
+
+.favourite-gallery {
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-overlay {
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.gallery-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.gallery-overlay p {
+    font-size: 24px;
+    line-height: 50px;
+    color: #7F7F7F;
+}
+
+.card__icon {
+    display: flex;
+    justify-content: end;
+}
